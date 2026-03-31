@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/show_all_tv_program" android:title="@string/all_tv_program"/>
+    <item android:id="@+id/show_mediaportal" android:title="@string/mediaportal"/>
+    <item android:id="@+id/show_settings" android:title="@string/settings"/>
+</menu>

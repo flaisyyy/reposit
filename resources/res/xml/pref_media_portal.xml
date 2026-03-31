@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="Use external player" android:key="use_external_player" android:summary="use external player for play movies" android:defaultValue="true"/>
+    <com.ua.mytrinity.ui.settings.AppPickerPreference android:layout="@layout/pref_item_with_icon" android:title="Application to use" android:key="player_app" android:summary="mx player"/>
+</PreferenceScreen>

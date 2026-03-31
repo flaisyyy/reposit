@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ua.mytrinity.ui.tv.BrightnessBar xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/brightnessBar" android:background="@drawable/round_box" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_centerVertical="true">
+    <com.ua.mytrinity.verticalslidevar.VerticalSeekBar android:id="@+id/bar" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="34dp" android:layout_height="140dp" android:maxWidth="34dp" android:progressDrawable="@drawable/brightbar_progress" android:minWidth="34dp" android:thumb="@null"/>
+</com.ua.mytrinity.ui.tv.BrightnessBar>

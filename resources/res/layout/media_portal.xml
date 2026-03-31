@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <fragment android:id="@+id/media_genre_list" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" class="com.ua.mytrinity.ui.media.MediaGenreListFragment"/>
+    <FrameLayout android:id="@+id/details" android:background="?android:attr/detailsElementBackground" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2">
+        <fragment android:id="@+id/media_movie_list" android:layout_width="match_parent" android:layout_height="match_parent" class="com.ua.mytrinity.ui.media.MediaMovieListFragment"/>
+    </FrameLayout>
+</LinearLayout>

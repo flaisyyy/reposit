@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@android:drawable/ic_menu_search" android:id="@+id/action_search" android:title="@string/action_bar_search" android:showAsAction="ifRoom" android:actionViewClass="android.widget.SearchView"/>
+    <item android:icon="@android:drawable/ic_menu_sort_alphabetically" android:id="@+id/action_sort" android:title="@string/action_bar_sort" android:showAsAction="ifRoom">
+        <menu>
+            <item android:icon="@android:drawable/ic_menu_sort_alphabetically" android:id="@+id/action_sort_alpha" android:title="@string/action_bar_sort_alpha" android:onClick="onSort"/>
+            <item android:icon="@android:drawable/ic_menu_today" android:id="@+id/action_sort_date_add" android:title="@string/action_bar_sort_date_add" android:onClick="onSort"/>
+            <item android:icon="@android:drawable/ic_menu_sort_by_size" android:id="@+id/action_sort_year" android:title="@string/action_bar_sort_year" android:onClick="onSort"/>
+        </menu>
+    </item>
+</menu>
